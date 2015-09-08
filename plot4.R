@@ -39,6 +39,6 @@ with(table, {
         legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2,
                legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
         plot(dateTime,Global_reactive_power, type="l",
-             ylab="Global Reactive Power",xlab="datetime")
+             ylab="Global_Reactive_Power",xlab="datetime")
 })
 dev.off()
